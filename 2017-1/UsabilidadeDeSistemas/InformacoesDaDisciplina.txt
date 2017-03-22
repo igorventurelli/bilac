@@ -1,1 +1,2 @@
-Professor:
+Disciplina: Usabilidade e Projeto de Sistemas e Aplicativos
+Professor: Angela Saemi

@@ -1,1 +1,2 @@
-Professor:
+Disciplina: Cálculo Diferencial e Integral
+Professor: Jefferson
