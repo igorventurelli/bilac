@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Cartão de crédito</title>
+    </head>
+    <body>
+        <table border="1" style="width: 200px; height: 300px; margin: auto; margin-top: 20px;">
+            <tbody>
+                <tr style="text-align: center; vertical-align: middle;">
+                    <td>
+                        <label for="txtNumero">Número:</label>
+                    </td>
+                    <td>
+                        <input id="txtNumero" type="number" style="width: 100px;">
+                    </td>
+                </tr>
+                <tr style="text-align: center; vertical-align: middle;">
+                    <td>
+                        <label>Bandeira:</label>
+                    </td>
+                    <td>
+                        <input name="bandeira" type="radio"><img src="assets/6/img/visa.png" style="vertical-align: middle;"><br>
+                        <input name="bandeira" type="radio" style="margin-top: 25px;"><img src="assets/6/img/master.png" style="vertical-align: middle;"><br>
+                        <input name="bandeira" type="radio" style="margin-top: 25px;"><img src="assets/6/img/american.png" style="vertical-align: middle;"><br>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="text-align: center; vertical-align: middle;">
+                        <label for="cboValidade">Validade:</label>
+                    </td>
+                    <td style="padding-left: 10px;">
+                        <select id="cboValidade" size="1">
+                            <option value="">2012</option>
+                            <option value="">2013</option>
+                            <option value="">2014</option>
+                        </select>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>
