@@ -1,0 +1,6 @@
+Diferencie os métodos de envio de dados get e post, identificando
+suas principais vantagens e desvantagens.
+
+Ao submeter um formulário por get as informações são passadas pela URL. Depdendo das informações que estiver trabalho isso pode ser um problema, pois fica totalmente visível. O get não transfere nada além de texto.
+
+Ao submeter um formulário por set as informações são empacotadas e não fica visível ao usuário final. Esse pacote é transitado através de variáveis.

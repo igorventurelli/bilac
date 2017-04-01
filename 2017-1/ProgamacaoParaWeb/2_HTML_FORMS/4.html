@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Dados do Cliente</title>
+</head>
+<body>
+    <form style="margin: auto; width: 500px; margin-top: 20px;">
+        <fieldset>
+            <legend>Dados do Cliente</legend>
+            <table>
+                <tbody>
+                    <tr>
+                        <td>
+                            <label for="txtNome">Nome:</label>
+                        </td>
+                        <td>
+                            <input id="txtNome" type="text">
+                        </td>
+                        <td>
+                            <label for="cboSexo">Sexo:</label>
+                        </td>
+                        <td>
+                            <select id="cboSexo" size="1">
+                                <option value="">Masculino</option>
+                                <option value="">Feminino</option>
+                                <option value="">Outro</option>
+                            </select>
+                        </td>
+                        <td>
+                            <label for="cboEstadoCivil">Estado Civil:</label>
+                        </td>
+                        <td>
+                            <select id="cboEstadoCivil" size="1">
+                                <option value="">Solteiro</option>
+                                <option value="">Casado</option>
+                                <option value="">Divorciado</option>
+                                <option value="">Viúvo</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="6">
+                            <fieldset>
+                                <legend>Endereço</legend>
+                                <table>
+                                    <tbody>
+                                        <tr>
+                                            <td>
+                                                <label for="txtRua">Rua:</label>
+                                            </td>
+                                            <td>
+                                                <input id="txtRua" type="text" style="width: 260px;">
+                                            </td>
+                                            <td>
+                                                <label for="txtNumero">Número:</label>
+                                            </td>
+                                            <td>
+                                                <input id="txtNumero" type="number" style="width: 50px;">
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td style="">
+                                                <label for="txtComplemento">Complemento:</label>
+                                            </td>
+                                            <td>
+                                                <input id="txtComplemento" type="text">
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </fieldset>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </fieldset>
+    </form>
+</body>
+</html>
