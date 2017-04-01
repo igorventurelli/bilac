@@ -5,75 +5,100 @@
     <title>Dados do Cliente</title>
 </head>
 <body>
-    <form style="margin: auto; width: 500px; margin-top: 20px;">
+    <form style="margin: auto; width: 520px; margin-top: 20px;">
         <fieldset>
             <legend>Dados do Cliente</legend>
-            <table>
-                <tbody>
-                    <tr>
-                        <td>
-                            <label for="txtNome">Nome:</label>
-                        </td>
-                        <td>
-                            <input id="txtNome" type="text">
-                        </td>
-                        <td>
-                            <label for="cboSexo">Sexo:</label>
-                        </td>
-                        <td>
-                            <select id="cboSexo" size="1">
-                                <option value="">Masculino</option>
-                                <option value="">Feminino</option>
-                                <option value="">Outro</option>
+            <div>
+                <span>
+                    <label for="txtNome">Nome:</label>
+                    <input id="txtNome" type="text">
+                </span>
+                <span>
+                    <label for="cboSexo">Sexo:</label>
+                    <select id="cboSexo" size="1">
+                        <option value="">Masculino</option>
+                        <option value="">Feminino</option>
+                        <option value="">Outro</option>
+                    </select>
+                </span>
+                <span>
+                    <label for="cboEstadoCivil">Estado Civil:</label>
+                    <select id="cboEstadoCivil" size="1">
+                        <option value="">Solteiro</option>
+                        <option value="">Casado</option>
+                        <option value="">Divorciado</option>
+                        <option value="">Viúvo</option>
+                    </select>
+                </span>
+            </div>
+            <div style="margin-top: 8px;">
+                <fieldset>
+                    <legend>Endereço</legend>
+                    <div>
+                        <span>
+                            <label for="txtRua">Rua:</label>
+                            <input id="txtRua" type="text" style="width: 300px;">
+                        </span>
+                        <span>
+                            <label for="txtNumero">Número:</label>
+                            <input id="txtNumero" type="number" style="width: 40px;">
+                        </span>
+                    </div>
+                    <div style="margin-top: 8px;">
+                        <span>
+                            <label for="txtComplemento">Complemento:</label>
+                            <input id="txtComplemento" type="text" style="width: 173px;">
+                        </span>
+                        <span>
+                            <label for="txtCep">CEP:</label>
+                            <input id="txtCep" type="text" >
+                        </span>
+                    </div>
+                    <div style="margin-top: 8px;">
+                        <span>
+                            <label for="txtCidade">Cidade:</label>
+                            <input id="txtCidade" type="text" style="width: 286px;">
+                        </span>
+                        <span>
+                            <label for="cboEstado">Estado:</label>
+                            <select id="cboEstado" size="1">
+                                <option value="">AC</option>
+                                <option value="">AL</option>
+                                <option value="">AP</option>
+                                <option value="">AM</option>
+                                <option value="">BA</option>
+                                <option value="">CE</option>
+                                <option value="">DF</option>
+                                <option value="">ES</option>
+                                <option value="">GO</option>
+                                <option value="">MA</option>
+                                <option value="">MT</option>
+                                <option value="">MS</option>
+                                <option value="">MG</option>
+                                <option value="">PA</option>
+                                <option value="">PB</option>
+                                <option value="">PR</option>
+                                <option value="">PE</option>
+                                <option value="">PI</option>
+                                <option value="">RJ</option>
+                                <option value="">RN</option>
+                                <option value="">RS</option>
+                                <option value="">RO</option>
+                                <option value="">RR</option>
+                                <option value="">SC</option>
+                                <option value="">SP</option>
+                                <option value="">SE</option>
+                                <option value="">TO</option>
                             </select>
-                        </td>
-                        <td>
-                            <label for="cboEstadoCivil">Estado Civil:</label>
-                        </td>
-                        <td>
-                            <select id="cboEstadoCivil" size="1">
-                                <option value="">Solteiro</option>
-                                <option value="">Casado</option>
-                                <option value="">Divorciado</option>
-                                <option value="">Viúvo</option>
-                            </select>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td colspan="6">
-                            <fieldset>
-                                <legend>Endereço</legend>
-                                <table>
-                                    <tbody>
-                                        <tr>
-                                            <td>
-                                                <label for="txtRua">Rua:</label>
-                                            </td>
-                                            <td>
-                                                <input id="txtRua" type="text" style="width: 260px;">
-                                            </td>
-                                            <td>
-                                                <label for="txtNumero">Número:</label>
-                                            </td>
-                                            <td>
-                                                <input id="txtNumero" type="number" style="width: 50px;">
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td style="">
-                                                <label for="txtComplemento">Complemento:</label>
-                                            </td>
-                                            <td>
-                                                <input id="txtComplemento" type="text">
-                                            </td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-                            </fieldset>
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
+                        </span>
+                    </div>
+                </fieldset>
+            </div>
+            <div style="margin-top: 8px; float: right;">
+                <span>
+                    <button type="button">Cadastrar</button>
+                </span>
+            </div>
         </fieldset>
     </form>
 </body>
