@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Pet Shop de Aquários</title>
+</head>
+<body>
+    <form style="margin: auto; width: 250px;">
+        <fieldset>
+            <legend>Informações do Aquário</legend>
+            <div style="margin-top: 20px;">
+                <div><strong>Ph do Aquário</strong></div>
+                <div>
+                    <input name="ph" type="radio">Ácido
+                    <input name="ph" type="radio">Alcalino
+                </div>
+                <div style="margin-top: 20px;">
+                    <fieldset>
+                        <legend>Peixes</legend>
+                        <div>
+                            <label for="txtQtd"><strong>Quantidade:</strong></label>
+                            <input id="txtQtd" type="text" style="width: 80px;">
+                        </div>
+                        <div style="margin-top: 5px;">
+                            <label for="cboEspecie"><strong>Espécie:</strong></label>
+                            <select>
+                                <option>Espada</option>
+                                <option>Molinésia</option>
+                                <option>Plati</option>
+                            </select>
+                        </div>
+                    </fieldset>
+                    <div style="margin-top: 30px">
+                        <strong>Outros:</strong><br>
+                        <input type="checkbox"><strong>Pedras</strong><br>
+                        <input type="checkbox"><strong>Plantas</strong>
+                    </div>
+                </div>
+            </div>
+        </fieldset>
+    </form>
+</body>

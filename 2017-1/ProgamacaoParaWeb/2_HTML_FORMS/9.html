@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Escola Virtual</title>
+</head>
+<body style="margin: auto; width: 560px;">
+    <div style="height: 100px;">
+        <span style="text-align: center;">
+            <div style=" margin-top: 30px;">
+                <h1>Escola Virtual</h1>
+            </div>
+            <div>
+                <h3>Formulário de Pré-Matrícula</h3>
+            </div>
+        </span>
+    </div>
+    <hr>
+    <form>
+        <table border="1" style="width: 100%;">
+            <tbody>
+                <tr>
+                    <th>
+                        <div>
+                            <div style="text-align: left;">
+                                <strong>Dados Pessoais:</strong>
+                            </div>
+                            <table style="width: 100%; margin-top: 5px;">
+                                <tbody>
+                                    <tr>
+                                        <th style="width: 40%;">
+                                            <label for="txtNomeAluno" style="float: right;">Nome do Aluno:</label>
+                                        </th>
+                                        <th>
+                                            <input id="txtNomeAluno" type="text" style="float: left; width: 200px;">
+                                        </th>
+                                    </tr>
+                                    <tr>
+                                        <th style="width: 40%;">
+                                            <label style="float: right;">Nascimento (dd/mm/aaaa):</label>
+                                        </th>
+                                        <th>
+                                            <input type="number" style="float: left; width: 40px;">
+                                            <span style="float: left;">/</span>
+                                            <input type="number" style="float: left; width: 40px;">
+                                            <span style="float: left;">/</span>
+                                            <input type="number" style="float: left; width: 50px;">
+                                        </th>
+                                    </tr>
+                                    <tr>
+                                        <th style="width: 40%;">
+                                            <label for="txtNomeMae" style="float: right;">Nome da Mãe:</label>
+                                        </th>
+                                        <th>
+                                            <input id="txtNomeMae" type="text" style="float: left; width: 200px;">
+                                        </th>
+                                    </tr>
+                                    <tr>
+                                        <th style="width: 40%;">
+                                            <label for="txtNomePai" style="float: right;">Nome do Pai:</label>
+                                        </th>
+                                        <th>
+                                            <input id="txtNomePai" type="text" style="float: left; width: 200px;">
+                                        </th>
+                                    </tr>
+                                    <tr>
+                                        <th style="width: 40%;">
+                                            <label style="float: right;">Telefone:</label>
+                                        </th>
+                                        <th>
+                                            <label style="float: left;">DDD (</label>
+                                            <input type="number" style="width: 30px; float: left;">
+                                            <label style="float: left;">) Tel:</label>
+                                            <input type="number" style="width: 80px; float: left;">
+                                            <label style="float: left;"> Ramal:</label>
+                                            <input type="number" style="width: 50px; float: left;">
+                                        </th>
+                                    </tr>
+                                    <tr>
+                                        <th style="width: 40%;">
+                                            <label for="txtNomeMae" style="float: right;">E-mail:</label>
+                                        </th>
+                                        <th>
+                                            <input id="txtNomeMae" type="text" style="float: left; width: 200px;">
+                                        </th>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </th>
+                </tr>
+                <tr>
+                    <th>
+                        <div>
+                            <div style="text-align: left;">
+                                <strong>Informações de Matrícula:</strong>
+                            </div>
+                            <table style="width: 100%; margin-top: 5px;">
+                                <tbody>
+                                    <tr>
+                                        <th style="width: 33%; vertical-align: top;">
+                                            <div style="text-align: left;">
+                                                <label for="cboSerie">Série:</label><br>
+                                                <select>
+                                                    <option>Pré Escola</option>
+                                                </select>
+                                            </div>
+                                        </th>
+                                        <th style="width: 33%; vertical-align: top;">
+                                            <div style="text-align: left;">
+                                                <label>Turno:</label><br>
+                                                <input type="radio" name="turno">Manhã<br>
+                                                <input type="radio" name="turno">Tarde
+                                            </div>
+                                        </th>
+                                        <th style="width: 33%;">
+                                            <div style="text-align: left;">
+                                                <label>Atividades Extracurriculares:</label><br>
+                                                <input type="checkbox">Informática<br>
+                                                <input type="checkbox">Música<br>
+                                                <input type="checkbox">Ballet<br>
+                                                <input type="checkbox">Pintura<br>
+                                                <input type="checkbox">Judô<br>
+                                                <input type="checkbox">Futebol<br>
+                                            </div>
+                                        </th>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </th>
+                </tr>
+            </tbody>
+        </table>
+        <div style="margin-top: 20px; text-align: center;">
+            <input type="submit" value="Enviar Formulário">
+            <input type="button" value="Limpa Formulário">
+        </div>
+    </form>
+</body>
