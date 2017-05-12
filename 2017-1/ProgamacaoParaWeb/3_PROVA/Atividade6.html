@@ -1,0 +1,27 @@
+<html>
+	<head>
+	</head>
+	<body>
+	<form action="http://portal.bilac.com.br/form.jsp" onsubmit="return validaDados()">
+		Nome <input type="text" id="nome"/>
+        </br>
+		Valor <input type="text" id="valor"/>
+        </br>
+		<input type="submit" value="Enviar"/>
+	</form>
+	<script>
+		function validaDados(){
+			var nome = document.getElementById('nome').value;
+			var valor = document.getElementById('valor').value;
+			if(nome == '' || valor == '') {
+				alert('Campos não Preenchidos...Dados não Submetidos');
+				return false;
+				
+			} else {
+				alert('Tudo Ok...Dados Submetidos');
+				return true;
+			}
+		}
+	</script>
+	</body>
+</html>
