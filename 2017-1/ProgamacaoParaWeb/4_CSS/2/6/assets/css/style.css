@@ -1,0 +1,24 @@
+#header {
+    background-color: aquamarine;
+}
+
+.greyDiv {
+    background-color: dimgrey;
+}
+
+.redDiv {
+    background-color: darkred;
+}
+
+.blueDiv {
+    background-color: blue;
+}
+
+.cyanDiv {
+    background-color: cyan;
+}
+
+.blackDiv {
+    background-color: black;
+    color: white;
+}
