@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>3</title>
+        <meta charset="utf-8">
+        <script type="text/javascript" src="3.js"></script>
+    </head>
+    <body style="width: 200px; margin: auto; margin-top: 20px;">
+        <form>
+            <div>
+                <label for="qtdKwh">Qtd de Kwh:</label>
+                <input type="text" id="qtdKwh" name="qtdKwh" />
+            </div>
+            <div>
+                <label for="valKwh">Valor unitário Kwh:</label>
+                <input type="text" id="valKwh" name="valKwh" />
+            </div>
+            <div>
+                <input type="button" onclick="calculate(qtdKwh.value, valKwh.value)" value="Calcular" />
+            </div>
+        </form>
+    </body>
+</html>
