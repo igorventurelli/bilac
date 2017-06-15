@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>1</title>
+        <meta charset="utf-8">
+        <script type="text/javascript" src="1.js"></script>
+    </head>
+    <body style="width: 200px; margin: auto; margin-top: 20px;">
+        <form>
+            <div>
+                <label for="val1">Valor 1:</label>
+                <input type="text" id="val1" name="val1" />
+            </div>
+            <div>
+                <label for="val2">Valor 2:</label>
+                <input type="text" id="val2" name="val2" />
+            </div>
+            <div>
+                <label for="cboOperations">Operação:</label>
+                <select id="cboOperations">
+                    <option value="+">+</option>
+                    <option value="-">-</option>
+                    <option value="*">*</option>
+                    <option value="/">/</option>
+                </select>
+                <input type="button" onclick="doOperation()" value="Calcular" />
+            </div>
+        </form>
+    </body>
+</html>
